@@ -28,3 +28,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
+
+
+ng build --prod --base-href "https://dvmoomoodv.github.io/portfolio/"
+
+angular-cli-ghpages --no-silent --branch=master --repo=https://github.com/dvmoomoodv/portfolio.git
